@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica;
+}
+
+header {
+  display: flex;
+  align-items: center; 
+  background-color: black;
+  height: 100px;
+  width: 100%;
+}
+
+nav {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  
+}
+
+nav>ul {
+  display: flex;
+  justify-content: space-between;
+  width: 65%;
+  margin-left: 30px;
+  padding: 10px;
+}
+
+nav>ul>li {
+  color: white;
+  width: 100px;
+}
+
+main {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.hero {
+  margin: 30px auto;
+}
+
+.threeGrid {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.ctr2 {
+  display: flex;
+  margin-bottom: 30px;
+  height: 400px;
+}
+
+.ctr2>img {
+  width: 50%;
+}
+
+.ctr2>div {
+  padding: 5px 20px;
+}
+
+.ctr2>div>h3 {
+  font-weight: bold;
+  font-size: 2em;
+  padding-bottom: 20px;
+}
+.ctr2>div>p {
+  line-height: 1.2;
+  height: 260px;
+  overflow: auto;
+}
+.text{
+  float:right;
+}
+button {
+  background-color: black;
+  color: white;
+  width: 50%;
+  height: 40px;
+  font-size: 1.4em;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: grey;
+  transition: 350ms;
+}
+
+footer {
+  background-color: black;
+  height: 100px;
+  width: 100%;
+}
